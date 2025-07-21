@@ -64,12 +64,6 @@ end
 
 local f = CreateFrame("Frame")
 f:RegisterEvent("MERCHANT_SHOW")
-f:SetScript("OnEvent", function(_, event)       
-    -- if event == "MERCHANT_SHOW" then
-    --     SellSpecificItems()
-    -- end
-end)
-
 -- Create a button frame
 local sellButton = CreateFrame("Button", "DungeonLootSellerButton", MerchantFrame, "UIPanelButtonTemplate")
 sellButton:SetSize(140, 30)
