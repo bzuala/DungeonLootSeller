@@ -17,6 +17,12 @@ local itemsToSell = {
     [82888] = true,   -- Heartboiler Staff
 }
 
+-- Slash command registration
+SLASH_DDM1 = "/ddm"
+SlashCmdList["DDM"] = function()
+    DungeonLootSeller_ShowWindow()
+end
+
 local function SellSpecificItems()
     local itemsToProcess = {}
     local totalPrice = 0

@@ -4,4 +4,6 @@
 ## Author: Bzuala
 ## Version: 1.0
 
+DungeonData\DungeonData.lua
+DungeonData\DungeonDataManagement.lua
 DungeonLootSeller.lua
