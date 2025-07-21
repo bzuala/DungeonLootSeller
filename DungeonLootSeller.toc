@@ -1,0 +1,7 @@
+## Interface: 100207
+## Title: Dungeon Loot Seller`
+## Notes: Sells specific items when interacting with a vendor
+## Author: Bzuala
+## Version: 1.0
+
+DungeonLootSeller.lua
